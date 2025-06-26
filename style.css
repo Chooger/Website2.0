@@ -1,0 +1,103 @@
+* {
+    border: 2px solid black;
+    margin: 3px;
+    background-color: white;
+} body {
+  background-image: url('/images/background.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 2px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    margin: 0;
+    padding: 0;
+} .logo img {
+    width: 50px;
+    margin: 0;
+    transition: transform 0.2s ease-in-out;
+} .logo:hover {
+    transform: scale(1.1);
+}
+
+.buttons {
+    display: flex;
+    margin: 0 3px;
+    flex-direction: row;
+    background-color: rgb(120, 120, 227);
+}
+
+.navbar {
+    align-content: space-between;
+    align-items: center;
+}
+
+.spacer {
+    width: 100vw;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 100vw;
+    min-height: 250px;
+    height: 50vh;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(245, 222, 179, 0);
+} .head {
+    position: relative;
+    top: 40px;
+    min-width: 2%;
+    height: 200px;
+}
+
+#head1 {
+
+} #head2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} #head3 {
+    display: flex;
+    align-items: end;
+    max-width: 150px;
+    text-align: end;
+} 
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:bisque
+} .mainspace {
+    height: 15px;
+} .card {
+    width: 500px;
+    height: 200px;
+}
+
+footer {
+    width: 100vw;
+    height: 30px;
+    background-color: blueviolet;
+}
