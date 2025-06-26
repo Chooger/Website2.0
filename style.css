@@ -71,7 +71,7 @@ header {
 }
 
 #head1 {
-
+    min-height: 1px;
 } #head2 {
     display: flex;
     flex-direction: column;
