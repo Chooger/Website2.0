@@ -1,0 +1,160 @@
+ body {
+    /* background-color: black; */
+  background-image: url('/images/background.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Libertinus Math';
+  margin: 0;
+  color: hsl(269 100% 69.2%);
+  font-weight: 600;
+  min-height: 100vh;
+} a {
+    color: hsla(300 100% 66.6% / 0.67);
+    font-size: large;
+    font-weight: 900;
+    text-decoration: none;
+} a:hover {
+    color: hsla(261 100% 69.2% / 0.7);
+} a:active {
+    color: white;
+} 
+
+.navbar {
+    background-color: hsl(263 64% 15%/0.5);
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 0px 3px;
+    align-content: space-between;
+    align-items: center;
+    max-height: 96px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    margin: 5px;
+    padding: 0;
+} .logo img {
+    width: 45px;
+    margin-top: 1px;
+    transition: transform 0.2s ease-in-out;
+} .logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 3px;
+    flex-direction: row;
+    background-color: none;
+} .button {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1px;
+    padding: 3px;
+    max-height: 30px;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+} .button:hover {
+    transform: scale(1.05);
+    box-shadow: 50%;
+    cursor: pointer;
+}.spacer {
+    width: 1000vw;
+    display: flex;
+    justify-content: right;
+}.docs {
+    font-size: large;
+    font-weight: 600;
+    padding: 8px;
+    margin: 5px;
+    border: 3px inset black;
+    background-color: hsla(263 64% 53.9% / 0.55);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 5px;
+} .docs:hover {
+    transform: scale(1.05);
+    box-shadow: 50%;
+    cursor: pointer;
+    color: hsla(261 100% 69.2% / 0.7);
+}
+
+/* **Hero Section** */
+
+ /* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 250px;
+    height: 30vh;
+    border: 0px;
+    padding: 0px;
+    margin: 0px; */
+    background-color: none;
+} .head {
+    padding: 3px;
+    position: relative;
+    top: 40px;
+    min-width: 2%;
+    height: 200px;
+    background-color: none;
+} .headbg {
+    background-color: hsla(280 100% 30% / 0.4);
+    margin: 6px;
+    transition: transform 0.2s ease-in-out;
+    padding: 0px 5px;
+    border-radius: 5px;
+    transform: scale(1.4);
+} .headbg:hover {
+    transform: scale(1.43);
+    background-color: hsla(280 100% 35% / 0.5)
+}
+
+
+ /* Main  */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:none;
+    margin: 0px;
+    min-height: 8vh;
+}
+
+
+ /* Cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 75vw;
+    background-color: hsla(280 100% 30% / 0.4);
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+  /* **Extra** */
+
+.footspace {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+footer {
+    /* width: 99vw; */
+    position: relative;
+    transform: translate(30px);
+    /* top: 30px; */
+    height: 30px;
+    background-color: hsla(280 100% 30% / 0.4);
+}

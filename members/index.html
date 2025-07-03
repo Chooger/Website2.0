@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/images/winton.ico" type="image/x-icon">
+    <link href="https://fonts.google.com/specimen/Kanit" rel="stylesheet">
+
+    <style>
+        body
+        {
+          margin: 0;
+          height: 100vh;
+          overflow: hidden;
+          background-image: url('background.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            /* text-align: center; */
+        }
+    </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const title = " Why live, laugh and love, when you can just GOON?";
+      const speed = 100;
+
+      function moveTitle() {
+          let index = 0;
+          function updateTitle() {
+              document.title = title.substring(index) + title.substring(0, index);
+              index = (index + 1) % title.length;
+          }
+          setInterval(updateTitle, speed);
+      }
+
+      moveTitle();
+
+      const sidebar = document.querySelector('.sidebar');
+      const toggleButton = document.querySelector('.toggle-button');
+
+      toggleButton.addEventListener('click', () => {
+          sidebar.classList.toggle('active');
+      });
+  });
+</script>
+
+<meta property="og:title" content="CEO: Chooger">
+<meta property="og:description" content="discord.gg/GoonX on top!">
+<meta property="og:image" content="https://goon.bio/images/winton.ico">
+<meta property="og:url" content="https://goon.bio">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Goon X">
+
+<meta name="twitter:title" content="CEO: Chooger">
+<meta name="twitter:description" content="discord.gg/goonx on top!">
+<meta name="twitter:image" content="https://goon.bio/images/winton.ico">
+
+</head>
+<body>
+
+
+    <!--Navbar Section-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <!--Mobile Menu-->
+        <a href="https://discord.gg/rCHcCzmpGP" id="navbar__logo"><i class="fas fa-gem"></i>Goon X</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <!--Navbar-->
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/members" class="navbar__links">Members</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/services" class="navbar__links">Services</a>
+          </li>
+          <li class="navbar__btn"><a href="/privacy/" class="button">Privacy</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <!--Hero section-->
+<!-- <div class="container">
+      <img id="welcome" src="images/welcome.png" alt="HIIIIIIIIIIIII" title="RIP Chilliman :(">
+      </div> -->
+
+      <div class="scroll">
+      <div class="box1">
+        <h1 class="staff-marker">Staff</h1>
+      <div class="staff-container">
+        <a href="https://goon.bio/chooger" title="CEO" class="links">Chooger</a>
+        <a href="https://goon.bio/mia" title="Mamma Mia" class="links">Mia</a>
+        <a href="https://goon.bio/capri" title="President" class="links">Capri</a>
+        <a href="https://goon.bio/softchi" title="Head Admin" class="links">Softchi</a>
+      </div>
+      <h1 class="members-marker">Members</h1>
+      <div class="members-container">
+        <a href="https://goon.bio/veraxity" title="Best femboy" class="links">Veraxity</a>
+        <a href="https://goon.bio/voxie" title="Great feet man &lt;3" class="links">Voxie</a>
+        <a href="https://goon.bio/defaultuser0" title="Nightshade Dev" class="links">defaultuser0</a>
+        <a href="https://goon.bio/kibbles" title="KIBBLES WIBBLES!!" class="links">Kibbles</a>
+      </div>
+      <h1 class="predators-marker">Predators</h1>
+      <div class="predators">
+        <a href="https://goon.bio/lucifer12am" title="Retard Skid Pred" class="Links">Lucifer12am</a>
+      </div>
+    </div>
+    </div>
+    <script src="oneko.js"></script>
+    <script src="app.js"></script>
+    </body>
+    </html>
